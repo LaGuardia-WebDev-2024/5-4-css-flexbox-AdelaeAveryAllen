@@ -4,36 +4,81 @@
     <meta charset="utf-8" />
     <title>Unit 4 - Flexbox</title>
     <style>
+      .book {
+        background-color: #c2f16b;
+        display: flex;
+        justify-content: space-around;
+       
+        
+    
+      }
+      .book-item {
+        background-color: rgb(238, 159, 217);
+        width: 200px;
+      }
+      .lalala {
+       background-color: #97fae9;
+        display: flex;
+        justify-content: space-around;
+      }
+      .omgg {
+        background-color: rgb(151, 91, 114);
+        width: 200px;
+      }
+      .period {
+         background-color: #fff78c;
+        display: flex;
+        justify-content: space-around;
+      }
+      .gurl {
+        background-color: rgb(243, 84, 84);
+        width: 200px;
+      }
+
+
+
+
     </style>
   </head>
   <body>
     <h1>Cozy Reads</h1>
-
+<div class="book">
       <img
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
-        width="200"
+        width="200" 
+        class="book-item"
       />
-      <p>
+      <p class="book-item">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
+</div>
 
+<div class="lalala">
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
-      width="200"
+      width="200" class="omgg"
     />
-    <p>
+    
+    <p class="omgg">
       The main character must oversee an inspection of a house for magical
       children. #CozyFantasy
     </p>
 
+</div>
+
+<div class="period">
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1601307658i/53310061.jpg"
-      width="200"
-    />
-    <p>
+      width="200" class="gurl"
+      />
+
+    <p class="gurl">
       Who better to help cover up an accidental murder than overly protective
       aunties. #CozyMystery
     </p>
+
+    </div>
+
   </body>
 </html>
